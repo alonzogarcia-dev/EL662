@@ -1,0 +1,33 @@
+body {
+  margin:0;
+  padding:0;
+  
+}
+nav {
+ background-color:black; 
+ height:50px;
+ display:flex;
+ justify-content: space-between;
+ /* background: linear-gradient(skyblue, green) no-repeat;*?
+  /*background-image: url("https://cdn5.beatstars.com/eyJidWNrZXQiOiJwcm9kLWJ0cy10cmFjayIsImtleSI6InByb2QvdHJhY2svYXJ0d29yay9USzE5OTU0ODY0L2xldHJhc2RlYW51ZWxhYWpwZWcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6bnVsbCwid2lkdGgiOjcwMCwiaGVpZ2h0Ijo3MDB9LCJ0b0Zvcm1hdCI6IndlYnAifX0=?t=1726782837149");*/
+}
+nav>a{
+  color:red;
+  text-decoration:none;
+  margin:auto;
+}
+nav a:link{
+  color:red;
+}
+nav a:visited{
+  color:white;
+}
+nav a:active{
+  color:blue;
+}
+nav a:hover {
+  color:skyblue;
+}
+.galeria{
+  width:300px;
+}
